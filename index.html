@@ -1,17 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>News Website</title>
-   <!-- Bootstrap Style -->
-   <link rel="stylesheet" href="sources/css/bootstrap.min.css">
-   <!-- Custome Style -->
-   <link rel="stylesheet" href="sources/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+  <!-- Bootstrap Style -->
+  <link rel="stylesheet" href="sources/css/bootstrap.min.css">
+  <!-- Custome Style -->
+  <link rel="stylesheet" href="sources/css/style.css">
 </head>
+
 <body>
-   
-   <!-- Bootstrap Script -->
-   <script src="sources/js/bootstrap.bundle.min.js"></script>
+  <div class="container-fluid">
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="btn btn-dark">
+          <a class="navbar-brand text-white" href="#">News</a>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-5 mb-lg-0 ms-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sport</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">International</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">National</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entertainment</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- END Navbar  -->
+  </div>
+
+  <!-- Bootstrap Script -->
+  <script src="sources/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
