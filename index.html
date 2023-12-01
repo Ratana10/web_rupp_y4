@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News</title>
   <!-- Bootstrap Style -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
   <link rel="stylesheet" href="sources/css/bootstrap.min.css">
   <!-- Custome Style -->
   <link rel="stylesheet" href="sources/css/style.css">
@@ -13,16 +15,15 @@
 
 <body>
   <div class="container-fluid">
-    <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg justify-content-between">
       <div class="container-fluid">
-        <button class="btn btn-dark">
-          <a class="navbar-brand text-white" href="#">News</a>
-        </button>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Logo -->
+        <div class="ml-3">
+          <div class="bg-dark text-white d-flex justify-content-center align-items-center"
+            style="width: 52px; height: 37px; border-radius: 8px;">News</div>
+        </div>
+        <!-- CATEGORIES -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-5 mb-lg-0 ms-5">
             <li class="nav-item">
@@ -41,13 +42,139 @@
               <a class="nav-link" href="#">Entertainment</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
+          <!-- Search -->
+          <div class="d-flex justify-content-between align-items-center">
+            <form class="">
+              <input class="form-control me-2" style="border-radius: 10px; width: 240px; height: 32px; font-size: 12px;"
+                type="text" placeholder="Search...">
+            </form>
+          </div>
         </div>
       </div>
     </nav>
-    <!-- END Navbar  -->
+    <!-- END NAVBAR -->
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="row mt-4">
+        <h1>Technology</h1>
+      </div>
+      <div class="row mt-2">
+        <div class="col-9">
+          <div class="card">
+            <img src="sources/images/technology.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-3">
+          Nisi, sagittis aliquet sit rutrum.
+          Nunc, id vestibulum quam ornare adipiscing.
+          Pellentesque sed turpis nunc gravida pharetra,
+          sit nec vivamus pharetra. Velit, dui, egestas nisi,
+          elementum mattis mauris, magnis. Massa tortor nibh nulla condimentum imperdiet scelerisque... read more
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="row">
+        <h1>Latest News</h1>
+      </div>
+      <div class="row mt-3">
+        <div class="col">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="height: 310px; width: 290px;">
+            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <div class="card-footer text-muted p-1">
+              <p class="text-left small">1 hours ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Bootstrap Script -->
