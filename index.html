@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News</title>
   <!-- Bootstrap Style -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
   <link rel="stylesheet" href="sources/css/bootstrap.min.css">
   <!-- Custome Style -->
   <link rel="stylesheet" href="sources/css/style.css">
@@ -13,16 +15,15 @@
 
 <body>
   <div class="container-fluid">
-    <!-- Navbar  -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg justify-content-between">
       <div class="container-fluid">
-        <button class="btn btn-dark">
-          <a class="navbar-brand text-white" href="#">News</a>
-        </button>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Logo -->
+        <div class="ml-3">
+          <div class="bg-dark text-white d-flex justify-content-center align-items-center"
+            style="width: 52px; height: 37px; border-radius: 8px;">News</div>
+        </div>
+        <!-- CATEGORIES -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-5 mb-lg-0 ms-5">
             <li class="nav-item">
@@ -41,24 +42,17 @@
               <a class="nav-link" href="#">Entertainment</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
+          <!-- Search -->
+          <div class="d-flex justify-content-between align-items-center">
+            <form class="">
+              <input class="form-control me-2" style="border-radius: 10px; width: 240px; height: 32px; font-size: 12px;"
+                type="text" placeholder="Search...">
+            </form>
+          </div>
         </div>
       </div>
     </nav>
     <!-- END Navbar  -->
-    
-    <!-- Footer -->
-    <div class="footer">
-      <div class="row">
-        <hr>
-        <div class="col-lg-12 col-sm-12 col-xs-12">
-          <p class="copyright">Copyright © 2023 <a href="#">RUPP E2Y4G24 Students</a>.</p>
-        </div>
-      </div>
-    </div>
-    <!-- END Footer -->
   </div>
 
   <!-- Bootstrap Script -->
