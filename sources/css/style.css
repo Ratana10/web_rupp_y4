@@ -1,3 +1,9 @@
+.copyright {
+    margin-top: 70px;
+    padding-top: 40px;
+    font-size: 15px;
+    text-align: center;
+}
 .zoom {
    transition: transform .2s;
 }
@@ -12,3 +18,4 @@
   transform: translate(-50%, -50%);
   color: white;
  }
+
