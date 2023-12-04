@@ -19,3 +19,7 @@
   color: white;
  }
 
+.text-active {
+   color: black; /* Set the text color to black */
+   font-weight: bold; /* Set the font weight to bold */
+}
