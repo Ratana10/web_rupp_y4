@@ -2,200 +2,227 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
-    <!-- Bootstrap Style -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News</title>
+  <!-- Bootstrap Style -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 
-    <link rel="stylesheet" href="../sources/css/bootstrap.min.css">
-    <!-- Custome Style -->
-    <link rel="stylesheet" href="../sources/css/style.css">
+  <link rel="stylesheet" href="../sources/css/bootstrap.min.css">
+  <!-- Custome Style -->
+  <link rel="stylesheet" href="../sources/css/style.css">
+
+
+
+  <style>
+    .card-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      /* Change this value to limit the number of lines */
+      max-height: 3em;
+      /* Change this value to adjust the max height of the title */
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <!-- NAVBAR -->
-        <div class="container-fluid bg-light p-3 align-items-center  ">
-            <div class=" row  ">
+  <!-- Navbar -->
+  <div>
+    <div class="container-fluid bg-light p-3 align-items-center  ">
+      <div class=" row  ">
 
-                <div class="col-lg-3">
-                    <!-- Logo -->
-                    <div class="ml-3">
-                        <div class="bg-dark text-white d-flex justify-content-center align-items-center"
-                            style="width: 52px; height: 37px; border-radius: 8px;">News</div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 d-flex justify-content-center align-items-center">
-                    <!-- Search -->
-                    <div class="d-flex justify-content-center align-items-center">
-                        <form class="">
-                            <input class="form-control me-2"
-                                style="border-radius: 10px; width: 240px; height: 32px; font-size: 12px;" type="text"
-                                placeholder="Search...">
-                        </form>
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                    <div class=" col-md-12 d-flex justify-content-between align-items-center custom-text">
-                        <a class="nav-link active text-secondary"  href="home.html">Home</a>
-                        <a class="nav-link active text-secondary" href="technology.html">Technology</a>
-                        <a class="nav-link active text-secondary" href="sport.html">Sport</a>
-                        <a class="nav-link active text-secondary" href="national.html">National</a>
-                        <a class="nav-link active text-secondary" href="international.html">International</a>
-                        <a class="nav-link active text-secondary" href="entertainment.html">Entertainment</a>
-                        <a class="nav-link active text-secondary" href="software.html">Software</a>
-                    </div>
-                </div>
-
-
-            </div>
+        <div class="col-lg-3">
+          <!-- Logo -->
+          <div class="ml-3">
+            <div class="bg-dark text-white d-flex justify-content-center align-items-center"
+              style="width: 52px; height: 37px; border-radius: 8px;">News</div>
+          </div>
         </div>
-        <!-- END NAVBAR -->
+
+        <div class="col-lg-3 d-flex justify-content-center align-items-center">
+          <!-- Search -->
+          <div class="d-flex justify-content-center align-items-center">
+            <form class="">
+              <input class="form-control me-2" style="border-radius: 10px; width: 240px; height: 32px; font-size: 12px;"
+                type="text" placeholder="Search...">
+            </form>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <div class=" col-md-12 d-flex justify-content-between align-items-center custom-text">
+            <a class="nav-link active text-secondary" href="home.html">Home</a>
+            <a class="nav-link active text-secondary" href="technology.html">Technology</a>
+            <a class="nav-link active text-secondary" href="sport.html">Sport</a>
+            <a class="nav-link active text-secondary" href="national.html">National</a>
+            <a class="nav-link active text-secondary" href="international.html">International</a>
+            <a class="nav-link active text-secondary" href="entertainment.html">Entertainment</a>
+            <a class="nav-link active text-secondary" href="software.html">Software</a>
+          </div>
+        </div>
+
+
+      </div>
     </div>
-
     <div class="container">
-        <div class="row">
-            <div class="row mt-4">
-                <h1>Technology</h1>
-            </div>
-            <div class="row mt-2">
-                <div class="col-9">
-                    <div class="card">
-                        <img src="../sources/images/technology.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-3">
-                    Nisi, sagittis aliquet sit rutrum.
-                    Nunc, id vestibulum quam ornare adipiscing.
-                    Pellentesque sed turpis nunc gravida pharetra,
-                    sit nec vivamus pharetra. Velit, dui, egestas nisi,
-                    elementum mattis mauris, magnis. Massa tortor nibh nulla condimentum imperdiet scelerisque... read
-                    more
-                </div>
-            </div>
-        </div>
+      <div class="row">
         <div class="row mt-4">
-            <div class="row">
-                <h1>Latest News</h1>
-            </div>
-            <div class="row mt-3">
-                <div class="col">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top" src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col ">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top" src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top" src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top " src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-5">
-                <div class="col">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top" src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col ">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top" src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top" src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card zoom" style="height: 310px; width: 290px;">
-                        <img class="card-img-top" src="../sources/images/tech1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                        </div>
-                        <div class="card-footer text-muted p-1">
-                            <p class="text-left small">1 hours ago</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <h1>Technology</h1>
         </div>
+        <div class="row mt-2 row-md-2">
+          <div class="col-9">
+            <div class="card">
+              <img src="../sources/images/technology/t0.jpg" alt="" style="height: 400px;">
+            </div>
+          </div>
+          <div class="col-3">
+            សូមជម្រាប​ថា ក្រុមហ៊ុននេះ​បានធ្វើការសាកល្បង​ដោយជោគជ័យ​នូវប្រព័ន្ធសាកភ្លើង​ឥតខ្សែតាមផ្លូវដោយជោគជ័យ​ 
+            ដោយបាន​សហការ​ជាមួយ Toyota។ រថយន្ត​ដែល​ត្រូវ​បាន​ធ្វើតេស្ត​នោះ គឺជា Toyota RAV4 Plug-in Hybrid។ 
+            អាគុយ​របស់វា​ អាច​សាក​ឥតខ្សែ នៅតាមផ្លូវ​ដែលគេបានរៀបចំដំឡើង​បច្ចេកវិទ្យានេះ (Charging Path)។ 
+            ការសាក​ភ្លើងសរុប​របស់​រថយន្ត​នេះ គឺមាន​ទំហំ ២៤១,៦៩គីឡូវ៉ាត់​ម៉ោង ជាមួយនឹងចម្ងាយ​បើកបរដោយប្រើអគ្គិសនីសុទ្ធ ១៩៥០គីឡូម៉ែត្រ 
+            ដោយវារត់ជាប់រយៈពេល ១០០ម៉ោង។ ចំពោះការបើកបរសាកល្បង​នេះ គឺ​មានតៃកុងឆ្លាស់គ្នា​បើកចំនួន ៥៥នាក់។  
+            ប្រសិន​បើរថយន្តខាងលើ មិនសាកភ្លើង​ឥតខ្សែតាមផ្លូវនេះទេ គឺ​វាអាចបើកបរបានចម្ងាយត្រឹមតែ ៧៥គីឡូម៉ែត្រ​តែប៉ុណ្ណោះ នៅពេលសាកពេញ 
+            ព្រោះតែអាគុយមានទំហំតូចត្រឹមតែ ១៨គីឡូវ៉ាត់ម៉ោង៕
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="row">
+          <h1>Latest News</h1>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t1.jpg" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <p class="card-text">
+                  ការមកដល់នៃ Galaxy គ្រុឌ និង Galaxy គោព្រៃ បង្ហាញចេញនូវ
+                </p>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t2.jpg" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <p class="card-text">
+                  ប្រភេទហ៊ាយប្រ៊ីដ និង Option ខ្ពស់លើសពីការរំពឹងទុកនោះគឺ Toyota All New Yaris Cross HEV
+                </p>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t3.jpg" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <p class="card-title">
+                  Toyota ត្រៀម​ដាក់ម៉ាស៊ីនថ្មី​មួយ​លើ​ LandCruiser! មិនមែន​សាំង-ម៉ាស៊ូត ឬអគ្គិសនី​នោះទេ
+                </p>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t4.jpg" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <h5 class="card-title">ស្វែងយល់ពីអនាគតនៃពិព័រណ៍រថយន្តភ្នំពេញឈានមុខគេមួយនៅកម្ពុជា</h5>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t5.png" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <p class="card-text">
+                  ក្រុមហ៊ុន Epson បង្ហាញចក្ខុវិស័យច្បាស់លាស់ចំពោះនិរន្តរភាពសម្រាប់អនាគតអាជីវកម្ម្ព
+                </p>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t6.jpg" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <p class="card-text">
+                  ក្រុមហ៊ុន Epson បង្ហាញចក្ខុវិស័យច្បាស់លាស់ចំពោះនិរន្តរភាពសម្រាប់អនាគតអាជីវកម្ម
+                </p>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t7.jpg" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <p class="card-text">តិច​ទៀត អ្នកប្រើរថយន្តអគ្គិសនី មិនបាច់​រង់ចាំសាកភ្លើង​ទៀតទេ</p>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card zoom" style="height: 310px; width: 290px;">
+              <img class="card-img-top" src="../sources/images/technology/t8.jpg" alt="Card image cap"
+                style="height: 165px ;">
+              <div class="card-body">
+                <p class="card-text">
+                  ធ្លាប់ឆ្ងល់អត់! ប្រេងម៉ាស៊ីន និងទឹក នៅពេញធម្មតា តែរថយន្តជិះសុខៗស្រាប់តែរលត់?
+                </p>
+              </div>
+              <div class="card-footer text-muted p-1">
+                <p class="text-left small">1 hours ago</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- FOOTER -->
     <div class="container-fluid">
-        <div class="footer">
-            <div class="row">
-                <div class="col-lg-12 col-sm-12 col-xs-12">
-                    <p class="copyright">Copyright © 2023 <a href="#">RUPP E2Y4G24 Students</a>.</p>
-                </div>
-            </div>
+      <div class="footer">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-xs-12">
+            <p class="copyright">Copyright © 2023 <a href="#">RUPP E2Y4G24 Students</a>.</p>
+          </div>
         </div>
+      </div>
     </div>
-    <!-- END FOOTER -->
+  </div>
+  <!-- END FOOTER -->
 
-    <!-- Bootstrap Script -->
-    <script src="../sources/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Script -->
+  <script src="../sources/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
