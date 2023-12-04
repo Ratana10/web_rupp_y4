@@ -8,3 +8,11 @@
     font-weight: 400;
     line-height: normal;
   }
+
+  .custom-truncate {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    text-overflow: ellipsis;
+  }
