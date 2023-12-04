@@ -2,195 +2,180 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>News</title>
-  <!-- Bootstrap Style -->
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../sources/css/bootstrap.min.css">
+    <!-- Custome Style -->
+    <link rel="stylesheet" href="../sources/css/style.css">
 
-  <link rel="stylesheet" href="sources/css/bootstrap.min.css">
-  <!-- Custome Style -->
-  <link rel="stylesheet" href="sources/css/style.css">
+
+
+    <style>
+        .card-title {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            /* Change this value to limit the number of lines */
+            max-height: 3em;
+            /* Change this value to adjust the max height of the title */
+        }
+    </style>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg justify-content-between">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <div class="ml-3">
-          <div class="bg-dark text-white d-flex justify-content-center align-items-center"
-            style="width: 52px; height: 37px; border-radius: 8px;">News</div>
-        </div>
-        <!-- CATEGORIES -->
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav me-auto mb-5 mb-lg-0 ms-5">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Technology</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sport</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">International</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">National</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Entertainment</a>
-            </li>
-          </ul>
-          <!-- Search -->
-          <div class="d-flex justify-content-between align-items-center">
-            <form class="">
-              <input class="form-control me-2" style="border-radius: 10px; width: 240px; height: 32px; font-size: 12px;"
-                type="text" placeholder="Search...">
-            </form>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- END NAVBAR -->
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="row mt-4">
-        <h1>Technology</h1>
-      </div>
-      <div class="row mt-2">
-        <div class="col-9">
-          <div class="card">
-            <img src="sources/images/technology.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-3">
-          Nisi, sagittis aliquet sit rutrum.
-          Nunc, id vestibulum quam ornare adipiscing.
-          Pellentesque sed turpis nunc gravida pharetra,
-          sit nec vivamus pharetra. Velit, dui, egestas nisi,
-          elementum mattis mauris, magnis. Massa tortor nibh nulla condimentum imperdiet scelerisque... read more
-        </div>
-      </div>
-    </div>
-    <div class="row mt-4">
-      <div class="row">
-        <h1>Latest News</h1>
-      </div>
-      <div class="row mt-3">
-        <div class="col">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-        <div class="col ">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top " src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">News Title Lorem Ipsum Dolor Sit Amet</h5>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-        <div class="col ">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card zoom" style="height: 310px; width: 290px;">
-            <img class="card-img-top" src="sources/images/tech1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-            <div class="card-footer text-muted p-1">
-              <p class="text-left small">1 hours ago</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-   <!-- FOOTER -->
-   <div class="container-fluid">
-    <div class="footer">
-      <div class="row">
-        <div class="col-lg-12 col-sm-12 col-xs-12">
-          <hr/>
-          <p class="copyright">Copyright © 2023 <a href="#">RUPP E2Y4G24 Students</a>.</p>
-        </div>
-      </div>
-   </div>
-  </div>
-  <!-- END FOOTER -->
 
-  <!-- Bootstrap Script -->
-  <script src="sources/js/bootstrap.bundle.min.js"></script>
+    <!-- Navbar -->
+    <div class="container-fluid bg-light p-3 align-items-center  ">
+        <div class=" row  ">
+
+            <div class="col-lg-3">
+                <!-- Logo -->
+                <div class="ml-3">
+                    <div class="bg-dark text-white d-flex justify-content-center align-items-center"
+                        style="width: 52px; height: 37px; border-radius: 8px;">News</div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 d-flex justify-content-center align-items-center">
+                <!-- Search -->
+                <div class="d-flex justify-content-center align-items-center">
+                    <form class="">
+                        <input class="form-control me-2"
+                            style="border-radius: 10px; width: 240px; height: 32px; font-size: 12px;" type="text"
+                            placeholder="Search...">
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <div class=" col-md-12 d-flex justify-content-between align-items-center custom-text">
+                    <a class="nav-link text-active text-secondary"  href="home.html">Home</a>
+                    <a class="nav-link  text-secondary" href="technology.html">Technology</a>
+                    <a class="nav-link  text-secondary" href="sport.html">Sport</a>
+                    <a class="nav-link  text-secondary" href="national.html">National</a>
+                    <a class="nav-link  text-secondary" href="international.html">International</a>
+                    <a class="nav-link  text-secondary" href="entertainment.html">Entertainment</a>
+                    <a class="nav-link  text-secondary" href="software.html">Software</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Hero section -->
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Hi,<br>I am John</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet soluta veniam voluptate aliquam
+                        deleniti labore quod quis illum, sapiente nam nesciunt magni voluptatibus voluptatem incidunt
+                        placeat consequuntur quaerat voluptatum expedita!</p>
+                    <button type="button" class="btn btn-dark btn-lg">Book a Skype Call</button>
+                </div>
+                <div class="col">
+                    <img src="../sources//images/homepage4.png" alt="..." style="height: 600px;">
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- Hero section ends here -->
+
+    <!-- About Us -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <!-- another image can be inserted here -->
+                    <img src="../sources/images/aboutMe.png" alt="..." class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur reiciendis in quae, rem
+                        corporis id sequi debitis aliquam laudantium illum vel unde? Praesentium laboriosam neque eaque
+                        architecto maxime nihil?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia tenetur reiciendis in quae, rem
+                        corporis id sequi debitis aliquam laudantium illum vel unde? Praesentium laboriosam neque eaque
+                        architecto maxime nihil?</p>
+                    <button type="button" class="btn btn-dark btn-lg">Hire me!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of About Us -->
+
+    <!-- Projects section -->
+    <div class="container">
+        <div class="row align-items-center projects">
+            <div class="col">
+                <h1>Our Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod aliquam corporis tempore nostrum.
+                    Animi rem quisquam deleniti qui ad ipsa quod! Animi corrupti, ex blanditiis dolor error nulla
+                    consectetur.</p>
+            </div>
+            <div class="row align-items-center" >
+                <div class="col" style=" width: 100px;">
+                    <div class="card mb-3">
+                        <img src="../sources/images/cardHome1.jpeg" class="card-img-top" alt="..." >
+                        <div class="card-body">
+                            <h5 class="card-title">Title 1</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"  style=" width: 100px;">
+                    <div class="card mb-3">
+                        <img src="../sources/images/cardHome2.png" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Title 2</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style=" width: 100px;">
+                    <div class="card mb-3">
+                        <img src="../sources/images/cardHome3.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Title 3</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Some useful info</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row align-items-center projects ">
+                <div class="col">
+                    <h1>Contact me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod aliquam corporis tempore
+                        nostrum. Animi rem quisquam deleniti qui ad ipsa quod! Animi corrupti, ex blanditiis dolor error
+                        nulla consectetur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of contact section -->
 </body>
 
 </html>
