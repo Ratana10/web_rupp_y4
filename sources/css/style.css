@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&display=swap');
+
+body{
+   font-family: 'Battambang';
+}
+
 .card-title {
    overflow: hidden;
    text-overflow: ellipsis;
@@ -40,4 +46,5 @@
 .text-active {
    color: black; /*Set the text color to black*/
    font-weight: bold; /* Set the font weight to bold */
+   font-size: 20px;
 }
