@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&display=swap');
+
+body{
+   font-family: 'Battambang';
+}
+
+.card-title {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   /* Change this value to limit the number of lines */
+   max-height: 3em;
+   /* Change this value to adjust the max height of the title */
+}
+
 .copyright {
     margin-top: 70px;
     padding-top: 40px;
@@ -10,12 +27,28 @@
 
 .zoom:hover {
    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   cursor: pointer;
  }
+ .social-icon:hover {
+   color: #007bff !important; /* Change to the desired hover color */
+   text-decoration: none !important; /* Optional: Remove underline on hover */
+}
  .image-text{
   position: absolute;
   top: 75%;
   left: 20%;
   transform: translate(-50%, -50%);
   color: white;
+  cursor: pointer;
+ }
+ u:hover{
+   color: rgb(0, 115, 255);
+   cursor: pointer;
+
  }
 
+.text-active {
+   color: black; /*Set the text color to black*/
+   font-weight: bold; /* Set the font weight to bold */
+   font-size: 20px;
+}
